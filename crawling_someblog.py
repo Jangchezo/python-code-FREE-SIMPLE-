@@ -4,11 +4,12 @@ This is auto-subscribing a blog that I subscribe.
 It prints out the title of a new post on this blog.
 I can check if any new post is updated on this blog.
 You can change the url and use it!
+You should change chromedriver's path. ->> see '***(YOUR NAME HERE!)***'
 Oh, you might have to change the xpath, because the title's xpath is different from blog to blog.
 """
 from selenium import webdriver
 
-driver = webdriver.Chrome('/Users/JHLee/Downloads/chromedriver_win32/chromedriver')
+driver = webdriver.Chrome('/Users/***(YOUR NAME HERE!)***/Downloads/chromedriver_win32/chromedriver')
 driver.get('http://iandyou.egloos.com')
 
 #print('title: ',driver.title)  # For title checking
