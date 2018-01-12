@@ -1,4 +1,9 @@
 # Google auto search
+"""
+Automatically search 'Selenium' via Google.
+Ofcourse, you can change the keyword 'Selenium' into other word.
+You first need to install selenium in order to run this program.
+"""
 from selenium import webdriver
 
 driver = webdriver.Chrome('/Users/JHLee/Downloads/chromedriver_win32/chromedriver')
