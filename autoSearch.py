@@ -6,7 +6,7 @@ You first need to install selenium in order to run this program.
 """
 from selenium import webdriver
 
-driver = webdriver.Chrome('/Users/JHLee/Downloads/chromedriver_win32/chromedriver')
+driver = webdriver.Chrome('/Users/***(YOUR NAME HERE!)***/Downloads/chromedriver_win32/chromedriver')
 driver.get('http://google.co.kr')
 
 assert 'Google' in driver.title
