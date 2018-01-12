@@ -1,4 +1,11 @@
-# 어른이 긁어오기
+# Crawling someblog
+"""
+This is auto-subscribing a blog that I subscribe.
+It prints out the title of a new post on this blog.
+I can check if any new post is updated on this blog.
+You can change the url and use it!
+Oh, you might have to change the xpath, because the title's xpath is different from blog to blog.
+"""
 from selenium import webdriver
 
 driver = webdriver.Chrome('/Users/JHLee/Downloads/chromedriver_win32/chromedriver')
